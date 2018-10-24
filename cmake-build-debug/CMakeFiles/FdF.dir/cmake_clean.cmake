@@ -69,6 +69,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/FdF.dir/save_map.c.o"
   "CMakeFiles/FdF.dir/ft_atoi_fdf.c.o"
   "CMakeFiles/FdF.dir/mogify_coords.c.o"
+  "CMakeFiles/FdF.dir/tttt.c.o"
   "CMakeFiles/FdF.dir/print_fdf.c.o"
   "FdF.pdb"
   "FdF"

@@ -16,8 +16,8 @@
 # include <stdio.h>
 # include <mlx.h>
 # include <math.h>// библиотека для згачегтй double
-# define WINDOW_X 1024
-# define WINDOW_Y 768
+# define WINDOW_X 1200
+# define WINDOW_Y 720
 
 typedef struct	s_mlx
 {
@@ -58,8 +58,32 @@ typedef	struct		s_glob
 	int				yy;
 	int				x_next;
 	int				y_next;
+
+
+	int				dx;
+	int				dy;
+	int				lx;
+	int				ly;
+	int				ll;
+
+	int				d;
+	int				d1;
+	int				d2;
 	
-	
+	int				tmp_x;
+	int				tmp_y;
+	int				tmp_z;
+
+	int				tmp_d;
+	int				tmp_d1;
+
+	int				tmp_x1;
+	int				tmp_y1;
+	int				tmp_z1;
+
+	int				x_ttt;
+	int				y_ttt;
+
 	int				s_r;
 	int				centering_x;
 	int				centering_y;
@@ -67,6 +91,9 @@ typedef	struct		s_glob
 	int				bits_pixel;
 	int				size_line;
 	t_len			len;
+
+	int				zoom;
+
 }					t_glob;
 
 
@@ -83,6 +110,6 @@ int					payment(t_glob **glob, t_mlx *mlx);
 //void                line_output(int x0, int y0, int x1, int y1, int color, t_mlx *mlx, int *z);
 void				line_output(t_glob *t0, int color, t_mlx *mlx);
 void                modify_coords(int *x, int *y, int *z);
-int                 esc_extt(int key);
+int					esc_extt(int key, t_glob **glob);
 
 #endif

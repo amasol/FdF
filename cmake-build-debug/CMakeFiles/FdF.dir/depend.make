@@ -274,3 +274,8 @@ CMakeFiles/FdF.dir/save_map.c.o: .././libft/libft.h
 CMakeFiles/FdF.dir/save_map.c.o: ../fdf.h
 CMakeFiles/FdF.dir/save_map.c.o: ../save_map.c
 
+CMakeFiles/FdF.dir/tttt.c.o: .././libft/get_next_line.h
+CMakeFiles/FdF.dir/tttt.c.o: .././libft/libft.h
+CMakeFiles/FdF.dir/tttt.c.o: ../fdf.h
+CMakeFiles/FdF.dir/tttt.c.o: ../tttt.c
+

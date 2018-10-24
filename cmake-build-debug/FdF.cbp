@@ -299,6 +299,9 @@
 		<Unit filename="/Users/amasol/amasol/project/FdF_CLion/save_map.c">
 			<Option target="FdF"/>
 		</Unit>
+		<Unit filename="/Users/amasol/amasol/project/FdF_CLion/tttt.c">
+			<Option target="FdF"/>
+		</Unit>
 		<Unit filename="/Users/amasol/amasol/project/FdF_CLion/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

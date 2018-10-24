@@ -88,6 +88,7 @@ void			save_map(t_glob *glob, t_map **map)
 	int		fd;
 
 	fd = open("test_maps/42.fdf", O_RDONLY);
+//	fd = open("test_maps/100-6.fdf", O_RDONLY);
 	glob->len.x = -1;
 	if (get_next_line(fd, &(line)) > 0)
 	{

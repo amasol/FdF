@@ -75,6 +75,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/amasol/amasol/project/FdF_CLion/mogify_coords.c" "/Users/amasol/amasol/project/FdF_CLion/cmake-build-debug/CMakeFiles/FdF.dir/mogify_coords.c.o"
   "/Users/amasol/amasol/project/FdF_CLion/print_fdf.c" "/Users/amasol/amasol/project/FdF_CLion/cmake-build-debug/CMakeFiles/FdF.dir/print_fdf.c.o"
   "/Users/amasol/amasol/project/FdF_CLion/save_map.c" "/Users/amasol/amasol/project/FdF_CLion/cmake-build-debug/CMakeFiles/FdF.dir/save_map.c.o"
+  "/Users/amasol/amasol/project/FdF_CLion/tttt.c" "/Users/amasol/amasol/project/FdF_CLion/cmake-build-debug/CMakeFiles/FdF.dir/tttt.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
