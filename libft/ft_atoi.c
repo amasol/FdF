@@ -15,7 +15,7 @@
 long int		ft_atoi(const char *str)
 {
 	char				*s;
-	unsigned long int	nom;
+	int					nom;
 	int					negativ;
 
 	s = (char *)str;
@@ -31,10 +31,6 @@ long int		ft_atoi(const char *str)
 	{
 		nom = nom * 10 + *s - 48;
 		s++;
-		if (nom >= 9223372036854775807 && negativ == 1)
-			return (-1);
-		else if (nom > 9223372036854775807 && negativ == -1)
-			return (0);
 	}
 	nom *= negativ;
 	return (nom);

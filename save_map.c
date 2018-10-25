@@ -72,7 +72,9 @@ int				save_matrix(t_map *map, t_glob *glob)
 		wid = 0;
 		while (glob->len.x > wid)
 		{
-			glob->len.matrix[heig][wid].z = (int)ft_atoi(cur->map_save[wid]);
+			glob->len.matrix[heig][wid].z = ft_atoi(cur->map_save[wid]);
+			if (glob->len.matrix[heig][wid].z > 20000)
+				error();
 			wid++;
 		}
 		heig++;
@@ -81,14 +83,12 @@ int				save_matrix(t_map *map, t_glob *glob)
 	return (0);
 }
 
-void			save_map(t_glob *glob, t_map **map)
+void			save_map(t_glob *glob, t_map **map, int fd)
 {
 	char 	**str;
 	char	*line;
-	int		fd;
+	int		check_line;
 
-	fd = open("test_maps/42.fdf", O_RDONLY);
-//	fd = open("test_maps/100-6.fdf", O_RDONLY);
 	glob->len.x = -1;
 	if (get_next_line(fd, &(line)) > 0)
 	{
@@ -103,6 +103,9 @@ void			save_map(t_glob *glob, t_map **map)
 	{
 		str = ft_strsplit(line, ' ');
 		free(line);
+		check_line = len_x(str);
+		if (glob->len.x > check_line || glob->len.x < check_line)
+			error();
 		add_list(&(*map), str);
 	}
 	close(fd);

@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/Users/amasol/amasol/project/FdF_CLion/conclusion.c" "/Users/amasol/amasol/project/FdF_CLion/cmake-build-debug/CMakeFiles/FdF.dir/conclusion.c.o"
   "/Users/amasol/amasol/project/FdF_CLion/error.c" "/Users/amasol/amasol/project/FdF_CLion/cmake-build-debug/CMakeFiles/FdF.dir/error.c.o"
   "/Users/amasol/amasol/project/FdF_CLion/ft_atoi_fdf.c" "/Users/amasol/amasol/project/FdF_CLion/cmake-build-debug/CMakeFiles/FdF.dir/ft_atoi_fdf.c.o"
   "/Users/amasol/amasol/project/FdF_CLion/ft_size_list.c" "/Users/amasol/amasol/project/FdF_CLion/cmake-build-debug/CMakeFiles/FdF.dir/ft_size_list.c.o"
@@ -75,7 +76,6 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/amasol/amasol/project/FdF_CLion/mogify_coords.c" "/Users/amasol/amasol/project/FdF_CLion/cmake-build-debug/CMakeFiles/FdF.dir/mogify_coords.c.o"
   "/Users/amasol/amasol/project/FdF_CLion/print_fdf.c" "/Users/amasol/amasol/project/FdF_CLion/cmake-build-debug/CMakeFiles/FdF.dir/print_fdf.c.o"
   "/Users/amasol/amasol/project/FdF_CLion/save_map.c" "/Users/amasol/amasol/project/FdF_CLion/cmake-build-debug/CMakeFiles/FdF.dir/save_map.c.o"
-  "/Users/amasol/amasol/project/FdF_CLion/tttt.c" "/Users/amasol/amasol/project/FdF_CLion/cmake-build-debug/CMakeFiles/FdF.dir/tttt.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

@@ -19,7 +19,7 @@ add_executable(FdF
         save_map.c
         ft_atoi_fdf.c
         mogify_coords.c
-        tttt.c
+        conclusion.c
         print_fdf.c)
 
 link_libraries(libft/libftprintf.a)

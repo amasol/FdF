@@ -55,3 +55,16 @@ void        modify_coords(int *x, int *y, int *z)
 //        fprintf(stderr, "after:%d %d %d\n", *x, *y, *z);
     cnt++;
 }
+
+/*
+void	get2d(t_3d_position p, t_view *v, int *x, int *y)
+{
+	int		x0;
+	int		y0;
+
+	y0 = p.y * cos(v->rx) + p.z * sin(v->rx);
+	p.z = p.z * cos(v->rx) - p.y * sin(v->rx);
+	x0 = p.x * cos(v->ry) - p.z * sin(v->ry);
+	*x = x0 * cos(v->rz) + y0 * sin(v->rz) + v->cx;
+	*y = y0 * cos(v->rz) - x0 * sin(v->rz) + v->cy;
+}*/

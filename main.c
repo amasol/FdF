@@ -12,48 +12,86 @@
 
 #include "fdf.h"
 
-static void			start_mlx(t_mlx *mlx, t_glob *glob)
-{
-//	int y = -1;
-//	int x;
-	mlx->go = mlx_init();
-	mlx->window = mlx_new_window(mlx->go, WINDOW_X, WINDOW_Y, "paracha");
-	payment(&glob, mlx);
-
-
-
-//	mlx_pixel_put(mlx->go, mlx->window, 250, 250, 0xBA55D3);
-//	mlx_pixel_put(mlx->go, mlx->window, glob->len.matrix[y], glob->len.x, 0xBA55D3);
-
-//	while (++y < glob->len.y)
+//void				file_free(t_point **alst, t_glob **glob)
+//{
+//	int		x;
+//
+//	x = 0;
+//	if (!alst[x])
+//		return ;
+//	while(x < (*glob)->len.x)
 //	{
-//		x = -1;
-//		while (++x < glob->len.x)
-//		{
-//			c
-//		}
+//		free(alst[x]);
+//		x++;
 //	}
+//}
 
+void				file_free(t_point **alst, t_glob *glob)
+{
+	int		x;
 
-
-
-//	mlx_key_hook(mlx->go, test_funk, (void *)0);
-//	mlx->img = mlx_new_image(mlx->go, WINDOW_X, WINDOW_Y);
-//	mlx->img_inform = mlx_get_data_addr(mlx->img, &(glob->bits_pixel),
-//			&(glob->size_line), &(glob->endian));
+	x = 0;
+	if (!alst[x])
+		return ;
+	while(x < glob->len.x)
+	{
+		free(alst[x]);
+		x++;
+	}
 }
 
-int				main(void)
+
+static void			start_mlx(t_mlx *mlx, t_glob *glob)
+{
+	glob->mlx = mlx;
+	mlx->go = mlx_init();
+	mlx->window = mlx_new_window(mlx->go, WINDOW_X, WINDOW_Y, "paracha");
+	mlx_hook(mlx->window, 2, (1L << 0), esc_extt, (void *)&glob);
+	initialize(&glob);
+	payment(&glob, mlx);
+	draw_help(glob->mlx);
+	mlx_loop(mlx->go);
+}
+
+static int		check_error(char **argv)
+{
+	int		fd;
+
+	if ((fd = open(argv[1], O_DIRECTORY)) > 0)
+	{
+		write(1, "Error validation\n", 6);
+		return (-1);
+	}
+	close(fd);
+	if ((fd = open(argv[1], O_RDONLY)) < 0)
+		write(1, "Error validation\n", 6);
+	return (fd);
+}
+
+int				main(int argc, char **argv)
+//int				main(void)
 {
 	t_glob	glob;
 	t_map	*map;
 	t_mlx	mlx;
+	int fd;
 
 	map = NULL;
-	save_map(&glob, &map);
-	save_matrix(map, &glob);
-	start_mlx(&mlx, &glob);
-//	system("leaks fdf");
 
+	fd = open("test_maps/pyramide.fdf", O_RDONLY);
+//	if ((fd = check_error(argv)) < 0)
+//		return (0);
+//	if (argc != 2)
+//	{
+//		write(1, "usage: fdf map_name\n", 20);
+//		return (-1);
+//	}
+	save_map(&glob, &map, fd);
+	save_matrix(map, &glob);
+//	start_mlx(&mlx, &glob);
+
+//	file_free(glob.len.matrix, &glob);
+
+//	system("leaks fdf");
 	return (0);
 }

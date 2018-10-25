@@ -22,8 +22,6 @@
 typedef struct	s_mlx
 {
 	void		*go;
-	void		*img;
-	char		*img_inform;
 	void		*window;
 
 }				t_mlx;
@@ -37,7 +35,6 @@ typedef	struct		s_map
 typedef	struct		s_point
 {
 	int				z;
-	int				color;
 }					t_point;
 
 typedef	struct		s_len
@@ -54,11 +51,14 @@ typedef	struct		s_glob
 	
 	
 	int				z;
+	int				z_next;
 	int				xx;
 	int				yy;
 	int				x_next;
 	int				y_next;
 
+	float 			rx;
+	float 			ry;
 
 	int				dx;
 	int				dy;
@@ -66,38 +66,26 @@ typedef	struct		s_glob
 	int				ly;
 	int				ll;
 
-	int				d;
-	int				d1;
-	int				d2;
-	
 	int				tmp_x;
 	int				tmp_y;
-	int				tmp_z;
 
 	int				tmp_d;
 	int				tmp_d1;
 
 	int				tmp_x1;
 	int				tmp_y1;
-	int				tmp_z1;
 
-	int				x_ttt;
-	int				y_ttt;
+	int				start_x;
+	int				start_y;
+	int				scale;
 
-	int				s_r;
-	int				centering_x;
-	int				centering_y;
-	int				endian;
-	int				bits_pixel;
-	int				size_line;
 	t_len			len;
 
-	int				zoom;
-
+	t_mlx			*mlx;
 }					t_glob;
 
-
-int					main(void);
+int				main(int argc, char **argv);
+//int				main(void);
 
 
 int					ft_size_list(t_map *lst);
@@ -105,11 +93,13 @@ int					len_x(char **str);
 int					save_matrix(t_map *map, t_glob *glob);
 void				error(void);
 void				add_list(t_map **map, char **str);
-void				save_map(t_glob *glob, t_map **map);
-int					payment(t_glob **glob, t_mlx *mlx);
-//void                line_output(int x0, int y0, int x1, int y1, int color, t_mlx *mlx, int *z);
+void				save_map(t_glob *glob, t_map **map, int fd);
+void				payment(t_glob **glob, t_mlx *mlx);
+void				initialize(t_glob **glob);
+
 void				line_output(t_glob *t0, int color, t_mlx *mlx);
-void                modify_coords(int *x, int *y, int *z);
+void				draw_help(t_mlx *mlx);
 int					esc_extt(int key, t_glob **glob);
+void				file_free(t_point **alst, t_glob *glob);
 
 #endif

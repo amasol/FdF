@@ -13,7 +13,7 @@
 NAME = fdf
 #FLAGS = -Wall -Wextra -Werror
 LIB = libft.a
-SRC = main.c ft_size_list.c error.c save_map.c ft_atoi_fdf.c print_fdf.c mogify_coords.c tttt.c
+SRC = main.c ft_size_list.c error.c save_map.c ft_atoi_fdf.c print_fdf.c mogify_coords.c conclusion.c
 MLX := -lmlx -framework OpenGL -framework AppKit
 
 HEADERS = ./fdf.h

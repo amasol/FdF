@@ -967,18 +967,18 @@ CMakeFiles/FdF.dir/mogify_coords.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FdF.dir/mogify_coords.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/amasol/amasol/project/FdF_CLion/mogify_coords.c -o CMakeFiles/FdF.dir/mogify_coords.c.s
 
-CMakeFiles/FdF.dir/tttt.c.o: CMakeFiles/FdF.dir/flags.make
-CMakeFiles/FdF.dir/tttt.c.o: ../tttt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/amasol/amasol/project/FdF_CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/FdF.dir/tttt.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FdF.dir/tttt.c.o   -c /Users/amasol/amasol/project/FdF_CLion/tttt.c
+CMakeFiles/FdF.dir/conclusion.c.o: CMakeFiles/FdF.dir/flags.make
+CMakeFiles/FdF.dir/conclusion.c.o: ../conclusion.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/amasol/amasol/project/FdF_CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/FdF.dir/conclusion.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FdF.dir/conclusion.c.o   -c /Users/amasol/amasol/project/FdF_CLion/conclusion.c
 
-CMakeFiles/FdF.dir/tttt.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FdF.dir/tttt.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/amasol/amasol/project/FdF_CLion/tttt.c > CMakeFiles/FdF.dir/tttt.c.i
+CMakeFiles/FdF.dir/conclusion.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FdF.dir/conclusion.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/amasol/amasol/project/FdF_CLion/conclusion.c > CMakeFiles/FdF.dir/conclusion.c.i
 
-CMakeFiles/FdF.dir/tttt.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FdF.dir/tttt.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/amasol/amasol/project/FdF_CLion/tttt.c -o CMakeFiles/FdF.dir/tttt.c.s
+CMakeFiles/FdF.dir/conclusion.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FdF.dir/conclusion.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/amasol/amasol/project/FdF_CLion/conclusion.c -o CMakeFiles/FdF.dir/conclusion.c.s
 
 CMakeFiles/FdF.dir/print_fdf.c.o: CMakeFiles/FdF.dir/flags.make
 CMakeFiles/FdF.dir/print_fdf.c.o: ../print_fdf.c
@@ -1065,7 +1065,7 @@ FdF_OBJECTS = \
 "CMakeFiles/FdF.dir/save_map.c.o" \
 "CMakeFiles/FdF.dir/ft_atoi_fdf.c.o" \
 "CMakeFiles/FdF.dir/mogify_coords.c.o" \
-"CMakeFiles/FdF.dir/tttt.c.o" \
+"CMakeFiles/FdF.dir/conclusion.c.o" \
 "CMakeFiles/FdF.dir/print_fdf.c.o"
 
 # External object files for target FdF
@@ -1141,7 +1141,7 @@ FdF: CMakeFiles/FdF.dir/error.c.o
 FdF: CMakeFiles/FdF.dir/save_map.c.o
 FdF: CMakeFiles/FdF.dir/ft_atoi_fdf.c.o
 FdF: CMakeFiles/FdF.dir/mogify_coords.c.o
-FdF: CMakeFiles/FdF.dir/tttt.c.o
+FdF: CMakeFiles/FdF.dir/conclusion.c.o
 FdF: CMakeFiles/FdF.dir/print_fdf.c.o
 FdF: CMakeFiles/FdF.dir/build.make
 FdF: CMakeFiles/FdF.dir/link.txt
