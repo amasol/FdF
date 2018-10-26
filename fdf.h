@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: amasol <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/10/18 13:12:26 by amasol            #+#    #+#             */
-/*   Updated: 2018/10/18 13:12:28 by amasol           ###   ########.fr       */
+/*   Created: 2018/10/26 12:53:03 by amasol            #+#    #+#             */
+/*   Updated: 2018/10/26 12:53:06 by amasol           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,16 +15,16 @@
 # include "./libft/libft.h"
 # include <stdio.h>
 # include <mlx.h>
-# include <math.h>// библиотека для згачегтй double
+# include <math.h>
 # define WINDOW_X 1200
 # define WINDOW_Y 720
 
-typedef struct	s_mlx
+typedef struct		s_mlx
 {
-	void		*go;
-	void		*window;
+	void			*go;
+	void			*window;
 
-}				t_mlx;
+}					t_mlx;
 
 typedef	struct		s_map
 {
@@ -48,18 +48,15 @@ typedef	struct		s_glob
 {
 	int				x;
 	int				y;
-	
-	
+
 	int				z;
 	int				z_next;
 	int				xx;
 	int				yy;
 	int				x_next;
 	int				y_next;
-
-	float 			rx;
-	float 			ry;
-
+	float			rx;
+	float			ry;
 	int				dx;
 	int				dy;
 	int				lx;
@@ -84,10 +81,9 @@ typedef	struct		s_glob
 	t_mlx			*mlx;
 }					t_glob;
 
-int				main(int argc, char **argv);
+int					main(int argc, char **argv);
 //int				main(void);
-
-
+int					ft_s(int x);
 int					ft_size_list(t_map *lst);
 int					len_x(char **str);
 int					save_matrix(t_map *map, t_glob *glob);
@@ -99,7 +95,6 @@ void				initialize(t_glob **glob);
 
 void				line_output(t_glob *t0, int color, t_mlx *mlx);
 void				draw_help(t_mlx *mlx);
-int					esc_extt(int key, t_glob **glob);
-void				file_free(t_point **alst, t_glob *glob);
+int					key_param(int key, t_glob **glob);
 
 #endif

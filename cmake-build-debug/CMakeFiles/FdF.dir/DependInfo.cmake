@@ -6,7 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/amasol/amasol/project/FdF_CLion/conclusion.c" "/Users/amasol/amasol/project/FdF_CLion/cmake-build-debug/CMakeFiles/FdF.dir/conclusion.c.o"
   "/Users/amasol/amasol/project/FdF_CLion/error.c" "/Users/amasol/amasol/project/FdF_CLion/cmake-build-debug/CMakeFiles/FdF.dir/error.c.o"
-  "/Users/amasol/amasol/project/FdF_CLion/ft_atoi_fdf.c" "/Users/amasol/amasol/project/FdF_CLion/cmake-build-debug/CMakeFiles/FdF.dir/ft_atoi_fdf.c.o"
+  "/Users/amasol/amasol/project/FdF_CLion/fdf_help.c" "/Users/amasol/amasol/project/FdF_CLion/cmake-build-debug/CMakeFiles/FdF.dir/fdf_help.c.o"
   "/Users/amasol/amasol/project/FdF_CLion/ft_size_list.c" "/Users/amasol/amasol/project/FdF_CLion/cmake-build-debug/CMakeFiles/FdF.dir/ft_size_list.c.o"
   "/Users/amasol/amasol/project/FdF_CLion/libft/ft_above_zero.c" "/Users/amasol/amasol/project/FdF_CLion/cmake-build-debug/CMakeFiles/FdF.dir/libft/ft_above_zero.c.o"
   "/Users/amasol/amasol/project/FdF_CLion/libft/ft_atoi.c" "/Users/amasol/amasol/project/FdF_CLion/cmake-build-debug/CMakeFiles/FdF.dir/libft/ft_atoi.c.o"
@@ -73,7 +73,6 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/amasol/amasol/project/FdF_CLion/libft/ft_toupper.c" "/Users/amasol/amasol/project/FdF_CLion/cmake-build-debug/CMakeFiles/FdF.dir/libft/ft_toupper.c.o"
   "/Users/amasol/amasol/project/FdF_CLion/libft/get_next_line.c" "/Users/amasol/amasol/project/FdF_CLion/cmake-build-debug/CMakeFiles/FdF.dir/libft/get_next_line.c.o"
   "/Users/amasol/amasol/project/FdF_CLion/main.c" "/Users/amasol/amasol/project/FdF_CLion/cmake-build-debug/CMakeFiles/FdF.dir/main.c.o"
-  "/Users/amasol/amasol/project/FdF_CLion/mogify_coords.c" "/Users/amasol/amasol/project/FdF_CLion/cmake-build-debug/CMakeFiles/FdF.dir/mogify_coords.c.o"
   "/Users/amasol/amasol/project/FdF_CLion/print_fdf.c" "/Users/amasol/amasol/project/FdF_CLion/cmake-build-debug/CMakeFiles/FdF.dir/print_fdf.c.o"
   "/Users/amasol/amasol/project/FdF_CLion/save_map.c" "/Users/amasol/amasol/project/FdF_CLion/cmake-build-debug/CMakeFiles/FdF.dir/save_map.c.o"
   )

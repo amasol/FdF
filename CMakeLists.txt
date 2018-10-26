@@ -17,8 +17,7 @@ add_executable(FdF
         ft_size_list.c
         error.c
         save_map.c
-        ft_atoi_fdf.c
-        mogify_coords.c
+        fdf_help.c
         conclusion.c
         print_fdf.c)
 

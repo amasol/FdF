@@ -11,10 +11,10 @@ CMakeFiles/FdF.dir/error.c.o: .././libft/libft.h
 CMakeFiles/FdF.dir/error.c.o: ../error.c
 CMakeFiles/FdF.dir/error.c.o: ../fdf.h
 
-CMakeFiles/FdF.dir/ft_atoi_fdf.c.o: .././libft/get_next_line.h
-CMakeFiles/FdF.dir/ft_atoi_fdf.c.o: .././libft/libft.h
-CMakeFiles/FdF.dir/ft_atoi_fdf.c.o: ../fdf.h
-CMakeFiles/FdF.dir/ft_atoi_fdf.c.o: ../ft_atoi_fdf.c
+CMakeFiles/FdF.dir/fdf_help.c.o: .././libft/get_next_line.h
+CMakeFiles/FdF.dir/fdf_help.c.o: .././libft/libft.h
+CMakeFiles/FdF.dir/fdf_help.c.o: ../fdf.h
+CMakeFiles/FdF.dir/fdf_help.c.o: ../fdf_help.c
 
 CMakeFiles/FdF.dir/ft_size_list.c.o: .././libft/get_next_line.h
 CMakeFiles/FdF.dir/ft_size_list.c.o: .././libft/libft.h
@@ -263,11 +263,6 @@ CMakeFiles/FdF.dir/main.c.o: .././libft/get_next_line.h
 CMakeFiles/FdF.dir/main.c.o: .././libft/libft.h
 CMakeFiles/FdF.dir/main.c.o: ../fdf.h
 CMakeFiles/FdF.dir/main.c.o: ../main.c
-
-CMakeFiles/FdF.dir/mogify_coords.c.o: .././libft/get_next_line.h
-CMakeFiles/FdF.dir/mogify_coords.c.o: .././libft/libft.h
-CMakeFiles/FdF.dir/mogify_coords.c.o: ../fdf.h
-CMakeFiles/FdF.dir/mogify_coords.c.o: ../mogify_coords.c
 
 CMakeFiles/FdF.dir/print_fdf.c.o: .././libft/get_next_line.h
 CMakeFiles/FdF.dir/print_fdf.c.o: .././libft/libft.h

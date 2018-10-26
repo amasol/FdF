@@ -941,35 +941,22 @@ CMakeFiles/FdF.dir/save_map.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FdF.dir/save_map.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/amasol/amasol/project/FdF_CLion/save_map.c -o CMakeFiles/FdF.dir/save_map.c.s
 
-CMakeFiles/FdF.dir/ft_atoi_fdf.c.o: CMakeFiles/FdF.dir/flags.make
-CMakeFiles/FdF.dir/ft_atoi_fdf.c.o: ../ft_atoi_fdf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/amasol/amasol/project/FdF_CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/FdF.dir/ft_atoi_fdf.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FdF.dir/ft_atoi_fdf.c.o   -c /Users/amasol/amasol/project/FdF_CLion/ft_atoi_fdf.c
+CMakeFiles/FdF.dir/fdf_help.c.o: CMakeFiles/FdF.dir/flags.make
+CMakeFiles/FdF.dir/fdf_help.c.o: ../fdf_help.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/amasol/amasol/project/FdF_CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/FdF.dir/fdf_help.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FdF.dir/fdf_help.c.o   -c /Users/amasol/amasol/project/FdF_CLion/fdf_help.c
 
-CMakeFiles/FdF.dir/ft_atoi_fdf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FdF.dir/ft_atoi_fdf.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/amasol/amasol/project/FdF_CLion/ft_atoi_fdf.c > CMakeFiles/FdF.dir/ft_atoi_fdf.c.i
+CMakeFiles/FdF.dir/fdf_help.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FdF.dir/fdf_help.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/amasol/amasol/project/FdF_CLion/fdf_help.c > CMakeFiles/FdF.dir/fdf_help.c.i
 
-CMakeFiles/FdF.dir/ft_atoi_fdf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FdF.dir/ft_atoi_fdf.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/amasol/amasol/project/FdF_CLion/ft_atoi_fdf.c -o CMakeFiles/FdF.dir/ft_atoi_fdf.c.s
-
-CMakeFiles/FdF.dir/mogify_coords.c.o: CMakeFiles/FdF.dir/flags.make
-CMakeFiles/FdF.dir/mogify_coords.c.o: ../mogify_coords.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/amasol/amasol/project/FdF_CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/FdF.dir/mogify_coords.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FdF.dir/mogify_coords.c.o   -c /Users/amasol/amasol/project/FdF_CLion/mogify_coords.c
-
-CMakeFiles/FdF.dir/mogify_coords.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FdF.dir/mogify_coords.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/amasol/amasol/project/FdF_CLion/mogify_coords.c > CMakeFiles/FdF.dir/mogify_coords.c.i
-
-CMakeFiles/FdF.dir/mogify_coords.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FdF.dir/mogify_coords.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/amasol/amasol/project/FdF_CLion/mogify_coords.c -o CMakeFiles/FdF.dir/mogify_coords.c.s
+CMakeFiles/FdF.dir/fdf_help.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FdF.dir/fdf_help.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/amasol/amasol/project/FdF_CLion/fdf_help.c -o CMakeFiles/FdF.dir/fdf_help.c.s
 
 CMakeFiles/FdF.dir/conclusion.c.o: CMakeFiles/FdF.dir/flags.make
 CMakeFiles/FdF.dir/conclusion.c.o: ../conclusion.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/amasol/amasol/project/FdF_CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/FdF.dir/conclusion.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/amasol/amasol/project/FdF_CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/FdF.dir/conclusion.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FdF.dir/conclusion.c.o   -c /Users/amasol/amasol/project/FdF_CLion/conclusion.c
 
 CMakeFiles/FdF.dir/conclusion.c.i: cmake_force
@@ -982,7 +969,7 @@ CMakeFiles/FdF.dir/conclusion.c.s: cmake_force
 
 CMakeFiles/FdF.dir/print_fdf.c.o: CMakeFiles/FdF.dir/flags.make
 CMakeFiles/FdF.dir/print_fdf.c.o: ../print_fdf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/amasol/amasol/project/FdF_CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/FdF.dir/print_fdf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/amasol/amasol/project/FdF_CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/FdF.dir/print_fdf.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FdF.dir/print_fdf.c.o   -c /Users/amasol/amasol/project/FdF_CLion/print_fdf.c
 
 CMakeFiles/FdF.dir/print_fdf.c.i: cmake_force
@@ -1063,8 +1050,7 @@ FdF_OBJECTS = \
 "CMakeFiles/FdF.dir/ft_size_list.c.o" \
 "CMakeFiles/FdF.dir/error.c.o" \
 "CMakeFiles/FdF.dir/save_map.c.o" \
-"CMakeFiles/FdF.dir/ft_atoi_fdf.c.o" \
-"CMakeFiles/FdF.dir/mogify_coords.c.o" \
+"CMakeFiles/FdF.dir/fdf_help.c.o" \
 "CMakeFiles/FdF.dir/conclusion.c.o" \
 "CMakeFiles/FdF.dir/print_fdf.c.o"
 
@@ -1139,13 +1125,12 @@ FdF: CMakeFiles/FdF.dir/main.c.o
 FdF: CMakeFiles/FdF.dir/ft_size_list.c.o
 FdF: CMakeFiles/FdF.dir/error.c.o
 FdF: CMakeFiles/FdF.dir/save_map.c.o
-FdF: CMakeFiles/FdF.dir/ft_atoi_fdf.c.o
-FdF: CMakeFiles/FdF.dir/mogify_coords.c.o
+FdF: CMakeFiles/FdF.dir/fdf_help.c.o
 FdF: CMakeFiles/FdF.dir/conclusion.c.o
 FdF: CMakeFiles/FdF.dir/print_fdf.c.o
 FdF: CMakeFiles/FdF.dir/build.make
 FdF: CMakeFiles/FdF.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/amasol/amasol/project/FdF_CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Linking C executable FdF"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/amasol/amasol/project/FdF_CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Linking C executable FdF"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/FdF.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

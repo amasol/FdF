@@ -11,42 +11,12 @@
 /* ************************************************************************** */
 
 #include "fdf.h"
-
-//void				file_free(t_point **alst, t_glob **glob)
-//{
-//	int		x;
-//
-//	x = 0;
-//	if (!alst[x])
-//		return ;
-//	while(x < (*glob)->len.x)
-//	{
-//		free(alst[x]);
-//		x++;
-//	}
-//}
-
-void				file_free(t_point **alst, t_glob *glob)
-{
-	int		x;
-
-	x = 0;
-	if (!alst[x])
-		return ;
-	while(x < glob->len.x)
-	{
-		free(alst[x]);
-		x++;
-	}
-}
-
-
 static void			start_mlx(t_mlx *mlx, t_glob *glob)
 {
 	glob->mlx = mlx;
 	mlx->go = mlx_init();
-	mlx->window = mlx_new_window(mlx->go, WINDOW_X, WINDOW_Y, "paracha");
-	mlx_hook(mlx->window, 2, (1L << 0), esc_extt, (void *)&glob);
+	mlx->window = mlx_new_window(mlx->go, WINDOW_X, WINDOW_Y, "FdF");
+	mlx_hook(mlx->window, 2, (1L << 0), key_param, (void *)&glob);
 	initialize(&glob);
 	payment(&glob, mlx);
 	draw_help(glob->mlx);
@@ -69,29 +39,26 @@ static int		check_error(char **argv)
 }
 
 int				main(int argc, char **argv)
-//int				main(void)
 {
 	t_glob	glob;
 	t_map	*map;
 	t_mlx	mlx;
-	int fd;
+	int		fd;
 
 	map = NULL;
+	if ((fd = check_error(argv)) < 0)
+		return (0);
+	if (argc != 2)
+	{
+		write(1, "usage: fdf map_name\n", 20);
+		return (-1);
+	}
 
-	fd = open("test_maps/pyramide.fdf", O_RDONLY);
-//	if ((fd = check_error(argv)) < 0)
-//		return (0);
-//	if (argc != 2)
-//	{
-//		write(1, "usage: fdf map_name\n", 20);
-//		return (-1);
-//	}
 	save_map(&glob, &map, fd);
+
 	save_matrix(map, &glob);
-//	start_mlx(&mlx, &glob);
+	start_mlx(&mlx, &glob);
 
-//	file_free(glob.len.matrix, &glob);
-
-//	system("leaks fdf");
+	system("leaks fdf");
 	return (0);
 }

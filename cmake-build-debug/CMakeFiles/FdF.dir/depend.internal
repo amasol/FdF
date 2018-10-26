@@ -11,11 +11,11 @@ CMakeFiles/FdF.dir/error.c.o
  /Users/amasol/amasol/project/FdF_CLion/./libft/libft.h
  /Users/amasol/amasol/project/FdF_CLion/error.c
  /Users/amasol/amasol/project/FdF_CLion/fdf.h
-CMakeFiles/FdF.dir/ft_atoi_fdf.c.o
+CMakeFiles/FdF.dir/fdf_help.c.o
  /Users/amasol/amasol/project/FdF_CLion/./libft/get_next_line.h
  /Users/amasol/amasol/project/FdF_CLion/./libft/libft.h
  /Users/amasol/amasol/project/FdF_CLion/fdf.h
- /Users/amasol/amasol/project/FdF_CLion/ft_atoi_fdf.c
+ /Users/amasol/amasol/project/FdF_CLion/fdf_help.c
 CMakeFiles/FdF.dir/ft_size_list.c.o
  /Users/amasol/amasol/project/FdF_CLion/./libft/get_next_line.h
  /Users/amasol/amasol/project/FdF_CLion/./libft/libft.h
@@ -264,11 +264,6 @@ CMakeFiles/FdF.dir/main.c.o
  /Users/amasol/amasol/project/FdF_CLion/./libft/libft.h
  /Users/amasol/amasol/project/FdF_CLion/fdf.h
  /Users/amasol/amasol/project/FdF_CLion/main.c
-CMakeFiles/FdF.dir/mogify_coords.c.o
- /Users/amasol/amasol/project/FdF_CLion/./libft/get_next_line.h
- /Users/amasol/amasol/project/FdF_CLion/./libft/libft.h
- /Users/amasol/amasol/project/FdF_CLion/fdf.h
- /Users/amasol/amasol/project/FdF_CLion/mogify_coords.c
 CMakeFiles/FdF.dir/print_fdf.c.o
  /Users/amasol/amasol/project/FdF_CLion/./libft/get_next_line.h
  /Users/amasol/amasol/project/FdF_CLion/./libft/libft.h

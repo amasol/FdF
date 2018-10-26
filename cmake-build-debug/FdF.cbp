@@ -89,7 +89,7 @@
 		<Unit filename="/Users/amasol/amasol/project/FdF_CLion/fdf.h">
 			<Option target="FdF"/>
 		</Unit>
-		<Unit filename="/Users/amasol/amasol/project/FdF_CLion/ft_atoi_fdf.c">
+		<Unit filename="/Users/amasol/amasol/project/FdF_CLion/fdf_help.c">
 			<Option target="FdF"/>
 		</Unit>
 		<Unit filename="/Users/amasol/amasol/project/FdF_CLion/ft_size_list.c">
@@ -291,9 +291,6 @@
 			<Option target="FdF"/>
 		</Unit>
 		<Unit filename="/Users/amasol/amasol/project/FdF_CLion/main.c">
-			<Option target="FdF"/>
-		</Unit>
-		<Unit filename="/Users/amasol/amasol/project/FdF_CLion/mogify_coords.c">
 			<Option target="FdF"/>
 		</Unit>
 		<Unit filename="/Users/amasol/amasol/project/FdF_CLion/print_fdf.c">

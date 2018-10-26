@@ -48,12 +48,10 @@ static int		alloc_matrix(t_glob *glob)
 {
 	int		i;
 
-	if (!(glob->len.matrix = (t_point **)malloc(glob->len.y * sizeof(t_point *))))
-		return (0);
+	glob->len.matrix = (t_point **)malloc(glob->len.y * sizeof(t_point *));
 	i = -1;
-	while (++i < glob->len.x)
-		if (!(glob->len.matrix[i] = (t_point *)malloc(glob->len.x * sizeof(t_point))))
-			return (0);
+	while (++i < glob->len.y)
+		glob->len.matrix[i] = (t_point *)malloc(glob->len.x * sizeof(t_point));
 	return (1);
 }
 

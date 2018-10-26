@@ -177,32 +177,32 @@ error.c.s:
 	$(MAKE) -f CMakeFiles/FdF.dir/build.make CMakeFiles/FdF.dir/error.c.s
 .PHONY : error.c.s
 
-ft_atoi_fdf.o: ft_atoi_fdf.c.o
+fdf_help.o: fdf_help.c.o
 
-.PHONY : ft_atoi_fdf.o
+.PHONY : fdf_help.o
 
 # target to build an object file
-ft_atoi_fdf.c.o:
-	$(MAKE) -f CMakeFiles/FdF.dir/build.make CMakeFiles/FdF.dir/ft_atoi_fdf.c.o
-.PHONY : ft_atoi_fdf.c.o
+fdf_help.c.o:
+	$(MAKE) -f CMakeFiles/FdF.dir/build.make CMakeFiles/FdF.dir/fdf_help.c.o
+.PHONY : fdf_help.c.o
 
-ft_atoi_fdf.i: ft_atoi_fdf.c.i
+fdf_help.i: fdf_help.c.i
 
-.PHONY : ft_atoi_fdf.i
+.PHONY : fdf_help.i
 
 # target to preprocess a source file
-ft_atoi_fdf.c.i:
-	$(MAKE) -f CMakeFiles/FdF.dir/build.make CMakeFiles/FdF.dir/ft_atoi_fdf.c.i
-.PHONY : ft_atoi_fdf.c.i
+fdf_help.c.i:
+	$(MAKE) -f CMakeFiles/FdF.dir/build.make CMakeFiles/FdF.dir/fdf_help.c.i
+.PHONY : fdf_help.c.i
 
-ft_atoi_fdf.s: ft_atoi_fdf.c.s
+fdf_help.s: fdf_help.c.s
 
-.PHONY : ft_atoi_fdf.s
+.PHONY : fdf_help.s
 
 # target to generate assembly for a file
-ft_atoi_fdf.c.s:
-	$(MAKE) -f CMakeFiles/FdF.dir/build.make CMakeFiles/FdF.dir/ft_atoi_fdf.c.s
-.PHONY : ft_atoi_fdf.c.s
+fdf_help.c.s:
+	$(MAKE) -f CMakeFiles/FdF.dir/build.make CMakeFiles/FdF.dir/fdf_help.c.s
+.PHONY : fdf_help.c.s
 
 ft_size_list.o: ft_size_list.c.o
 
@@ -1986,33 +1986,6 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/FdF.dir/build.make CMakeFiles/FdF.dir/main.c.s
 .PHONY : main.c.s
 
-mogify_coords.o: mogify_coords.c.o
-
-.PHONY : mogify_coords.o
-
-# target to build an object file
-mogify_coords.c.o:
-	$(MAKE) -f CMakeFiles/FdF.dir/build.make CMakeFiles/FdF.dir/mogify_coords.c.o
-.PHONY : mogify_coords.c.o
-
-mogify_coords.i: mogify_coords.c.i
-
-.PHONY : mogify_coords.i
-
-# target to preprocess a source file
-mogify_coords.c.i:
-	$(MAKE) -f CMakeFiles/FdF.dir/build.make CMakeFiles/FdF.dir/mogify_coords.c.i
-.PHONY : mogify_coords.c.i
-
-mogify_coords.s: mogify_coords.c.s
-
-.PHONY : mogify_coords.s
-
-# target to generate assembly for a file
-mogify_coords.c.s:
-	$(MAKE) -f CMakeFiles/FdF.dir/build.make CMakeFiles/FdF.dir/mogify_coords.c.s
-.PHONY : mogify_coords.c.s
-
 print_fdf.o: print_fdf.c.o
 
 .PHONY : print_fdf.o
@@ -2082,9 +2055,9 @@ help:
 	@echo "... error.o"
 	@echo "... error.i"
 	@echo "... error.s"
-	@echo "... ft_atoi_fdf.o"
-	@echo "... ft_atoi_fdf.i"
-	@echo "... ft_atoi_fdf.s"
+	@echo "... fdf_help.o"
+	@echo "... fdf_help.i"
+	@echo "... fdf_help.s"
 	@echo "... ft_size_list.o"
 	@echo "... ft_size_list.i"
 	@echo "... ft_size_list.s"
@@ -2283,9 +2256,6 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... mogify_coords.o"
-	@echo "... mogify_coords.i"
-	@echo "... mogify_coords.s"
 	@echo "... print_fdf.o"
 	@echo "... print_fdf.i"
 	@echo "... print_fdf.s"
