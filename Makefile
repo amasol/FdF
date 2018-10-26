@@ -11,7 +11,7 @@
 # **************************************************************************** #
 
 NAME = fdf
-#FLAGS = -Wall -Wextra -Werror
+FLAGS = -Wall -Wextra -Werror
 LIB = libft.a
 SRC = main.c ft_size_list.c error.c save_map.c print_fdf.c conclusion.c fdf_help.c
 MLX := -lmlx -framework OpenGL -framework AppKit

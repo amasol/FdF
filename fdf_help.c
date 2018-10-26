@@ -88,10 +88,7 @@ static void		key_param_help_three(int *key, t_glob **glob)
 int				key_param(int key, t_glob **glob)
 {
 	if (key == 53)
-	{
-		system("leaks fdf");
 		exit(1);
-	}
 	else if (key == 69)
 	{
 		(*glob)->scale += 2;

@@ -83,7 +83,7 @@ int				save_matrix(t_map *map, t_glob *glob)
 
 void			save_map(t_glob *glob, t_map **map, int fd)
 {
-	char 	**str;
+	char	**str;
 	char	*line;
 	int		check_line;
 

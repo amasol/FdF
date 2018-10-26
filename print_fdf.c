@@ -20,11 +20,11 @@ void			draw_help(t_mlx *mlx)
 	x = 10;
 	y = 1;
 	mlx_string_put(mlx->go, mlx->window, x, (y++ * 20), 0xFFFFFF,
-			"Use arrows to move left(<-), right(->), up(^) and down(V)");
+			"Use arrows to move up(^), down(V), left(<-) and right(->)");
 	mlx_string_put(mlx->go, mlx->window, x, (y++ * 20), 0xFFFFFF,
-			"Use 4, 6, 8, 2 to rotate model");
+			"Use 4, 6, 8, 2 to rotate the figure");
 	mlx_string_put(mlx->go, mlx->window, x, (y++ * 20), 0xFFFFFF,
-			"Use +, - to increase and decrease model");
+			"Use +, - to increase and decrease figure");
 }
 
 void			initialize(t_glob **glob)
@@ -52,7 +52,7 @@ static void		payment_help_two(t_glob **glob, t_mlx *mlx, t_glob *t0, int *z0)
 	(*z0) = -t0->z_next * t0->scale / 10 * cos(t0->rx)
 			- (t0->y + 1) * t0->scale * sin(t0->rx);
 	t0->x_next = t0->x * t0->scale * cos(-t0->ry) - (*z0) * sin(-t0->ry);
-	line_output(t0, 0xAFF000, mlx);
+	line_output(t0, 0xFF00FF, mlx);
 }
 
 static void		payment_help(t_glob **glob, t_mlx *mlx, t_glob *t0, int *z0)
@@ -71,7 +71,7 @@ static void		payment_help(t_glob **glob, t_mlx *mlx, t_glob *t0, int *z0)
 			- t0->y * t0->scale * sin(t0->rx);
 	t0->x_next = (t0->x + 1) * t0->scale * cos(-t0->ry)
 			- (*z0) * sin(-t0->ry);
-	line_output(t0, 0xAFF000, mlx);
+	line_output(t0, 0xFF00FF, mlx);
 }
 
 void			payment(t_glob **glob, t_mlx *mlx)

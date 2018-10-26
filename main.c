@@ -11,7 +11,8 @@
 /* ************************************************************************** */
 
 #include "fdf.h"
-static void			start_mlx(t_mlx *mlx, t_glob *glob)
+
+static void		start_mlx(t_mlx *mlx, t_glob *glob)
 {
 	glob->mlx = mlx;
 	mlx->go = mlx_init();
@@ -53,12 +54,8 @@ int				main(int argc, char **argv)
 		write(1, "usage: fdf map_name\n", 20);
 		return (-1);
 	}
-
 	save_map(&glob, &map, fd);
-
 	save_matrix(map, &glob);
 	start_mlx(&mlx, &glob);
-
-	system("leaks fdf");
 	return (0);
 }

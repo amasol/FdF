@@ -5,17 +5,18 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: amasol <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/10/26 12:53:03 by amasol            #+#    #+#             */
-/*   Updated: 2018/10/26 12:53:06 by amasol           ###   ########.fr       */
+/*   Created: 2018/10/26 16:31:32 by amasol            #+#    #+#             */
+/*   Updated: 2018/10/26 16:31:34 by amasol           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FDF_H
 # define FDF_H
-# include "./libft/libft.h"
-# include <stdio.h>
+
 # include <mlx.h>
+# include "./libft/libft.h"
 # include <math.h>
+
 # define WINDOW_X 1200
 # define WINDOW_Y 720
 
@@ -26,18 +27,18 @@ typedef struct		s_mlx
 
 }					t_mlx;
 
-typedef	struct		s_map
+typedef struct		s_map
 {
 	char			**map_save;
 	struct s_map	*next;
 }					t_map;
 
-typedef	struct		s_point
+typedef struct		s_point
 {
 	int				z;
 }					t_point;
 
-typedef	struct		s_len
+typedef struct		s_len
 {
 	int				x;
 	int				y;
@@ -82,7 +83,6 @@ typedef	struct		s_glob
 }					t_glob;
 
 int					main(int argc, char **argv);
-//int				main(void);
 int					ft_s(int x);
 int					ft_size_list(t_map *lst);
 int					len_x(char **str);
@@ -92,7 +92,6 @@ void				add_list(t_map **map, char **str);
 void				save_map(t_glob *glob, t_map **map, int fd);
 void				payment(t_glob **glob, t_mlx *mlx);
 void				initialize(t_glob **glob);
-
 void				line_output(t_glob *t0, int color, t_mlx *mlx);
 void				draw_help(t_mlx *mlx);
 int					key_param(int key, t_glob **glob);
